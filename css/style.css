@@ -2,8 +2,12 @@ header {
     height:180vh;
     min-height:400px;
     background-size:cover;
-    background-image:url('../images/grouse.jpg');
 }
+
+     .ml-auto .dropdown-menu {
+      left: auto !important;
+      right: 0px;
+    }
 
 .hidden-spacer {
     height: 56px
@@ -99,26 +103,36 @@ header {
   }
 }
 
-.container .slider .slide.slide1 {
-  background: url(1.jpg);
+img {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.image-responsive {
+    overflow: hidden;
+}
+
+.container .slider .slide.image1 {
+  background: url(../images/grouse.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .container .slider .slide.slide2 {
-  background: url(2.jpg);
+  background: url(../images/plover.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .container .slider .slide.slide3 {
-  background: url(3.jpg);
+  background: url(../images/owl.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .container .slider .slide.slide4 {
-  background: url(4.jpg);
+  background: url(../images/roe-buck.jpg);
   background-size: cover;
   background-position: center;
 }
