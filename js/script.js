@@ -1,3 +1,5 @@
+$('#carouselFade').carousel();
+
 document.addEventListener("DOMContentLoaded", function(){
 
   el_autohide = document.querySelector('.autohide');
@@ -25,3 +27,4 @@ document.addEventListener("DOMContentLoaded", function(){
   // if
 
 }); 
+
